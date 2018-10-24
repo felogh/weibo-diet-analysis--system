@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>微博用户饮食分析</title>
+    <link rel="stylesheet" type="text/css" href="../static/zui/css/zui.min.css">
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    <script type="text/javascript" src='../static/jquery.js'></script>
+    <script type="text/javascript" src="../static/zui/js/zui.min.js"></script>
+    <script type="text/javascript" src='../static/choose.js'></script>
+</head>
+<body>
+
+    <nav class="navbar navbar-inverse" >
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand">Weibo | 条件检索</a>
+            </div>
+            
+            <div class="personal pull-right">
+                <ul class="clearfix">
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="contentBox">
+        <section class="container">
+
+            <form class="form-inline"  id="form-submit" align="center">
+                
+                    <label>地区&nbsp;</label>
+                    <select id="district" name="district"> 
+                        <option value="">不限地区</option>
+                        <option value="北京">北京</option>
+                        <option value="天津">天津</option>
+                        <option value="上海">上海</option>
+                        <option value="重庆">重庆</option>
+                        <option value="浙江">浙江</option>
+                        <option value="安徽">安徽</option>
+                        <option value="福建">福建</option>
+                        <option value="江西">江西</option>
+                        <option value="山东">山东</option>
+                        <option value="河南">河南</option>
+                        <option value="湖北">湖北</option>
+                        <option value="湖南">湖南</option>
+                        <option value="广东">广东</option>
+                        <option value="海南">海南</option>
+                        <option value="山西">山西</option>
+                        <option value="青海">青海</option>
+                        <option value="江苏">江苏</option>
+                        <option value="辽宁">辽宁</option>
+                        <option value="吉林">吉林</option>
+                        <option value="台湾">台湾</option>
+                        <option value="河北">河北</option>
+                        <option value="贵州">贵州</option>
+                        <option value="四川">四川</option>
+                        <option value="云南">云南</option>
+                        <option value="陕西">陕西</option>
+                        <option value="甘肃">甘肃</option>
+                        <option value="黑龙江">黑龙江</option>
+                        <option value="香港">香港</option>
+                        <option value="澳门">澳门</option>
+                        <option value="广西">广西</option>
+                        <option value="宁夏">宁夏</option>
+                        <option value="新疆">新疆</option>
+                        <option value="内蒙古">内蒙古</option>
+                        <option value="西藏">西藏</option>
+                        <option value="海外">海外</option>
+                    </select>
+
+
+                    <label>性别&nbsp;</label>
+                    <select id="gender" name="gender"> 
+                        <option  value="">不限性别</option>
+                        <option value="male">男</option>
+                        <option value="female">女</option> 
+                    </select>
+
+
+
+                    <label>时间&nbsp;</label>
+                    <select id="time" name="time">
+                        <option value="">不限时间</option>
+                        <option value="forenoon">早上/上午</option>
+                        <option value="noon">中午</option> 
+                        <option value="afternoon">下午</option>
+                        <option value="night">晚上</option>
+                        <option value="midnight">夜间</option>
+                    </select>
+
+
+                    <label>方式&nbsp;</label>
+                    <select id="mode" name="mode">
+                        <option value="">不限方式</option>
+                        <option value="iPhone">iPhone</option>
+                        <option value="iPad">iPad</option> 
+                        <option value="Android">Android</option>
+                        <option value="小米">小米</option>
+                        <option value="OPPO">OPPO</option>
+                        <option value="vivo">vivo</option>
+                        <option value="魅族">魅族</option>
+                        <option value="华为">华为</option>
+                        <option value="荣耀">荣耀</option>
+                        <option value="金立">金立</option>
+                        <option value="乐视">乐视</option>
+                        <option value="360">360</option>
+                        <option value="nubia">nubia</option>
+                        <option value="三星">三星</option>
+                        <option value="Nokia">Nokia</option>
+                        <option value="中兴">中兴</option>
+                        <option value="美图">美图</option>
+                        <option value="摩托罗拉">摩托罗拉</option>
+                        <option value="锤子">锤子</option>
+                        <option value="一加">一加</option>
+                        <option value="联想">联想</option>
+                        <option value="Google">Google</option>
+                        <option value="HTC">HTC</option>
+                        <option value="索尼">索尼</option>
+                        <option value="酷派">酷派</option>
+                        <option value="微博相关平台">微博相关平台</option>
+                        <option value="其它">其它</option>
+                    </select>
+
+                    <button id="food_search" class="btn btn-primary"><i class="icon-search" ></i>查询</button>
+                
+            </form>
+        </section>
+            
+        </section>
+
+    <div id="image" align="center">
+        <img id="topfoods" src="" alt=""/>
+        <img id="wordcloud" src="" alt=""/>
+
+    </div>
+
+<footer>
+    <div class="footer">
+        <p>重庆大学毕业设计: 微博用户饮食分析</p>
+    </div>
+    
+</footer>
+
+</body>
+</html>
+

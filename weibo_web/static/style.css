@@ -1,0 +1,99 @@
+
+body{
+	cursor: default;
+}
+
+.contentBox{
+	width:1024px;
+	margin:20px auto;
+}
+
+.formStyle{
+	width:500px;
+	margin:30px auto;
+}
+
+.formStyle label{
+	padding-top: 6px;
+}
+
+.center{
+	text-align: center;
+}
+
+.errorBox{
+	display: none;
+}
+.errorBox .error{
+	padding-left: 1em;
+}
+ul{
+	margin-bottom: 0;
+	padding-left: 0px;
+}
+li{
+	list-style: none;
+}
+
+.personal ul li{
+	float: left;
+	padding-right: 2em;
+	font-size: 1.3em;
+	color:#ddd;
+
+	height: 40px;
+	line-height: 40px;
+}
+.personal .text:hover{
+	color: #bd7b46;
+	cursor: default;
+}
+.exit a{
+	color:#000;
+}
+.exit a:hover{
+	color:#403737;
+}
+
+.name{
+	font-size:1.2em;
+}
+
+.funcBox li{
+	font-size: 1.2em;
+	
+	margin-top:1em;
+	background: #D1DEF1;
+	color:#942121;
+	text-align: center;
+	border-radius: 6px;
+	cursor: default;
+}
+
+.funcBox li a{
+	text-decoration: none;
+	display: block;
+	padding:10px 0px 10px 0px;
+
+}
+
+.funcChoose{
+	font-size: 1.2em;
+}
+
+
+footer{
+	width:100%;
+	position: absolute;
+	bottom: 0;
+}
+.footer{
+	background: #3f3f3f;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+	color:#fff;
+}
+.footer p{
+	margin-bottom: 3px;
+}
